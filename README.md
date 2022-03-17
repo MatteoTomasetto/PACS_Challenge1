@@ -3,7 +3,7 @@
 This program computes the solution of the Cauchy problem dy(t)/dt = f(t,y) with initial condition y(t0)=u0 until final time T.
 In particular it considers f(t,y) = -t*exp(-y).
 
-** Note** This program makes use of the theta-method to approximate the time derivative. Moreover it exploits the Newton method for the solution of the arising non-linear equation at each time step (the derivative of the non-linear function in the Newton method is approximated by centered finite differences).
+`Note`: This program makes use of the theta-method to approximate the time derivative. Moreover it exploits the Newton method for the solution of the arising non-linear equation at each time step (the derivative of the non-linear function in the Newton method is approximated by centered finite differences).
 
 The following parameters are read in input from command line thanks to GetPot:
 	1) theta = parameter of the theta-method;
