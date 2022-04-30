@@ -1,4 +1,4 @@
-# Code to solve Cauchy problem #
+# Cauchy problem solver #
 
 This program computes the solution of the Cauchy problem dy(t)/dt = f(t,y) with initial condition y(t0)=u0 until final time T.
 In particular it considers f(t,y) = -t*exp(-y).
